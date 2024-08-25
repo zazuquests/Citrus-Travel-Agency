@@ -1,0 +1,77 @@
+/* Navbar CSS effect */
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Navbar text color */
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: white;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #f0f0f0; /* Slightly lighter color on hover */
+  }
+  
+  /* Navbar background on scroll */
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background color on scroll */
+  }
+  
+  /* Background Image Section with Gradient Overlay */
+  .background-image {
+    height: 55vh;
+    width: 100%;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.3) 50%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(/assets/img/parisheader.jpg) no-repeat center center/cover;
+    position: relative;
+  }
+  
+  /* Optional: Adjust the overlay-content to ensure visibility */
+  .overlay-content {
+    position: absolute;
+    padding-top: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* To ensure text readability */
+  }
+  
+  .image-container {
+    overflow: hidden;
+    border-radius: 8px;
+    height: 230px;
+    width: 100%;
+  
+    &:hover {
+      box-shadow: 0 0 5px rgba(33, 33, 33, 0.679);
+    }
+  }
+  
+  /* Zoom effect */
+  .image-container img {
+    transition: all 0.3s ease;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  .alert {
+    transition: box-shadow 0.3s;
+    /* &:hover {
+      box-shadow: 0 0 5px rgba(33, 33, 33, 0.679);
+    } */
+  }
+  
+  .common-footer{
+    text-align: center;
+    font-weight: bold;
+  }
+  

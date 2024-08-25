@@ -1,0 +1,66 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400 !important;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700 !important;
+  }
+  
+  em, i {
+    font-style: italic !important;
+  }
+  
+  /* Responsive adjustments navbar*/
+  @media (max-width: 768px) {
+    .navbar {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    /* Navbar padding */
+  .navbar {
+    padding-left: 220px;
+    padding-right: 220px;
+  }
+  
+    /* Adjust text size for smaller screens */
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+      font-size: 14px;
+    }
+  }
+  
+  .container {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  
+  .color-palette {
+    color: rgb(0, 0, 0);
+    background-color: hsla(192, 7%, 86%, 0.467);
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .karla-font {
+    font-family: 'Karla', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  #footer{
+    background-color: hsla(192, 7%, 86%, 0.467); 
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    clear: both;
+  }
+  

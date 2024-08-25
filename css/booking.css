@@ -1,0 +1,147 @@
+@font-face {
+    src: url(/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+#booking-header{
+    background-image: url(/assets/img/ParisArchitecture.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.header-title{
+    font-size: 3rem;
+    color: hsl(0, 0%, 100%);
+    text-shadow: black 0px 0px 5px;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+.intro-container{
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+section{
+    width: 55%;
+    float: left;
+    padding: 10px;
+    align-items: center;
+}
+
+article{
+    align-items: center;
+    width: 45%;
+    float: left;
+    padding: 10px;
+}
+
+#form-button-group{
+    background-color: hsl(0, 0%, 60%);
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+}
+#hotelBtn, #entertainmentBtn, #taxiBtn, #parisBtn{
+    border-radius: 0px;
+}
+
+
+.booking-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    background-color: hsla(192, 7%, 86%, 0.467);
+    padding: 30px;
+    border-radius: 0px 0px 10px 10px;
+    font-size:1em;
+    margin-bottom: 20px;
+    width: 100%;
+    display: none;
+    /* transition: opacity 0.5s ease-in-out; */
+}
+
+form{
+    width: 100%;
+}
+
+.form-item{
+    width: 100%;
+    display: inline-block;
+}
+
+input, textarea, select{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    max-width: 100%;
+}
+    
+#people, #rooms{
+    width: 60px;
+}
+    
+button {
+    font-size: 1em;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 60%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #7adf7f;
+}
+
+#video-container, #contact-form{
+    border-radius: 10px;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    animation: fadeIn 0.5s;
+}
+.popup-content {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.hidden {
+    display: none;
+}
+.active{
+    display: block ;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}

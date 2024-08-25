@@ -1,0 +1,119 @@
+@font-face {
+    src: url(/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  
+  #entertainment-header{
+    background-image: url(/assets/img/louvreheader.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .header-title{
+    font-size: 4rem;
+    color: hsl(0, 0%, 100%);
+    text-shadow: black 0px 0px 5px;
+    z-index: 1;
+    margin-bottom: 60px;
+  }
+  
+  .intro-container{
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  .entcard-container{
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsla(192, 7%, 86%, 0.467);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    min-width: 400px;
+    width: 100%;
+    max-height: 60vh;
+  }
+  .entcard{
+    display: flex;
+  }
+  
+  .entcard-container:hover{
+    box-shadow: 0 0 5px rgba(33, 33, 33, 0.679);
+  }
+  
+  .entcard img{
+    max-height: 60vh;
+    width: auto;
+    
+  }
+  .entimage {
+    display: block;
+    max-height: 60vh;
+    width: auto;
+    object-fit: cover;
+  }
+  .entimage-hover {
+    display: none;
+  }
+  
+  .entcard-image:hover .entimage {
+    display: none;
+  }
+  
+  .entcard-image:hover .entimage-hover {
+    display: block;
+  }
+  
+  
+  .entcard-content{
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-inline: 10px;
+    padding-right: 10px;
+    text-align: left;
+    max-width: 40%;
+  }
+  .entcard-content p a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #7adf7f;
+  }
+  
+  
+  .map-container {
+    height: 100%; /* Set the height of the map */
+    width: 100%; /* Optional: Set a max width for the map */
+    overflow: hidden;
+    position: relative;
+    
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  .entcard-content .bookBtn{
+    display: inline-block;
+    padding: 10px;
+    background-color: hsl(0, 0%, 60%);
+    color: white;
+    border: none;
+    font-size: 1em; 
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .bookBtn:hover{
+    font-size: 1.0em;
+    background-color:#7adf7f;
+    cursor: pointer;
+  }
+  

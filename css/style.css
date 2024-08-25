@@ -1,0 +1,137 @@
+/* import css files*/
+@import url(/css/entertainment.css);
+@import url(/css/booking.css);
+
+@media screen and (max-width: 768px){
+    aside, section, article{
+        width: 100%;
+    }
+    /* .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+      } */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: inline-block; 
+    font-family: 'Montserrat', sans-serif !important; /*added*/
+    font-weight: 400 !important; /*added*/
+    height: 100%;
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+.karla-font {
+    font-family: 'Karla', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+main{
+    padding-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+.header{
+    position: relative;
+    width:100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar2{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    font-family: 'Trebucher MS', sans-serif ;
+    background-color:  hsla(0, 0%, 87%, 0.248);
+}
+
+.navbar2 ul{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar2 li{
+    float: left;
+}
+
+.navbar2 li a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0px 0px 4px;
+}
+
+.navbar2 a.active{
+    background-color: hsla(0, 0%, 86%, 0.258);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: rgb(0, 0, 0)  0px 0px 4px;
+}
+
+.navbar2 a:hover:not(.active){
+    background-color: hsla(0, 0%, 86%, 0.258);
+}
+
+.search-container {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+width: 250px;
+padding: 10px;
+background-color: rgba(255, 255, 255, 0.692);
+border: 1px solid rgba(255, 255, 255, 0);
+border-radius: 4px 0 0 4px;
+font-size: 16px;
+}
+
+.search-button {
+padding: 10px 15px;
+border-left: none;
+background-color: rgba(255, 255, 255, 0.842);
+border: 1px solid rgba(255, 255, 255, 0);
+color: black;
+border-radius: 0 4px 4px 0;
+cursor: pointer;
+font-size: 16px;
+}
+
+.search-button:hover {
+background-color: hsla(0, 0%, 100%, 0.95);
+border: 1px solid hsla(210, 20%, 94%, 0);
+}
+
+
+#footer{
+    background-color: hsla(192, 7%, 86%, 0.467); 
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    clear: both;
+}
+
